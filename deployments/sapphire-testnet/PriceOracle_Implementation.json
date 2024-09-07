@@ -1,0 +1,263 @@
+{
+  "address": "0xfe563d104bc782Dc6D5f1c5ac8Ea1A0917Ca81d4",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "admin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "disableToken",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "enableToken",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "getPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_admin",
+          "type": "address"
+        }
+      ],
+      "name": "init",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "numTokens",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address[]",
+          "name": "tokens",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "prices",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "setPrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "setup",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newAdmin",
+          "type": "address"
+        }
+      ],
+      "name": "transferAdmin",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xeeadd8f9d81b45cac8f40bd807c102a7e01f7ed8898bacc1fc1ecd360ad3da16",
+  "receipt": {
+    "to": null,
+    "from": "0x5dDfc2bF24C4F6D266Ee29eadC577732C01cDda2",
+    "contractAddress": "0xfe563d104bc782Dc6D5f1c5ac8Ea1A0917Ca81d4",
+    "transactionIndex": 0,
+    "gasUsed": "327675",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xef97e132ee67c27ed1d0028bde57afb72c98f252fdf014aba9d92efc83747acd",
+    "transactionHash": "0xeeadd8f9d81b45cac8f40bd807c102a7e01f7ed8898bacc1fc1ecd360ad3da16",
+    "logs": [],
+    "blockNumber": 7791693,
+    "cumulativeGasUsed": "327675",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "8191d63f010f0ae13905d469b9a69ee6",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.24+commit.e11b9ed9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"admin\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"disableToken\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"enableToken\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"name\":\"getPrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_admin\",\"type\":\"address\"}],\"name\":\"init\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"numTokens\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address[]\",\"name\":\"tokens\",\"type\":\"address[]\"},{\"internalType\":\"uint256[]\",\"name\":\"prices\",\"type\":\"uint256[]\"}],\"name\":\"setPrice\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setup\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newAdmin\",\"type\":\"address\"}],\"name\":\"transferAdmin\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/PriceOracle.sol\":\"PriceOracle\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"none\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":800},\"remappings\":[],\"viaIR\":true},\"sources\":{\"contracts/Admin.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.24;\\n\\ncontract Admin {\\n    address public admin;\\n    bool public setup;\\n\\n    function _setAdmin(address _admin) internal {\\n        require(!setup, \\\"Already setup\\\");\\n        admin = _admin;\\n        setup = true;\\n    }\\n\\n    modifier onlyAdmin() {\\n        require(msg.sender == admin, \\\"Only admin can call this function\\\");\\n        _;\\n    }\\n\\n    function transferAdmin(address newAdmin) public virtual onlyAdmin {\\n        admin = newAdmin;\\n    }\\n}\\n\",\"keccak256\":\"0xbbf0635cf310da1a7f70ddedb54c47882836ebe468e0b64dd9393e45feaa7789\",\"license\":\"UNLICENSED\"},\"contracts/PriceOracle.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.24;\\n\\nimport \\\"./Admin.sol\\\";\\n\\ncontract PriceOracle is Admin {\\n    uint256 public numTokens;\\n    mapping(uint256 => address) private numTotokens;\\n    mapping(address => uint256) private tokenToNum;\\n\\n    mapping(address => bool) private enabledTokens;\\n    mapping(address => uint256) private priceUSD;\\n\\n    function init(address _admin) public {\\n        _setAdmin(_admin);\\n    }\\n\\n    function getPrice(address token) public view returns (uint256) {\\n        require(enabledTokens[token], \\\"Not support token\\\");\\n        return priceUSD[token];\\n    }\\n\\n    function setPrice(\\n        address[] calldata tokens,\\n        uint256[] calldata prices\\n    ) public onlyAdmin {\\n        require(tokens.length == prices.length, \\\"Invalid input\\\");\\n        for (uint256 i = 0; i < tokens.length; i++) {\\n            priceUSD[tokens[i]] = prices[i];\\n        }\\n    }\\n\\n    function enableToken(address token) public onlyAdmin {\\n        enabledTokens[token] = true;\\n    }\\n\\n    function disableToken(address token) public onlyAdmin {\\n        enabledTokens[token] = false;\\n    }\\n\\n    function _addToken(address token) internal {\\n        if (tokenToNum[token] > 0) {\\n            return;\\n        }\\n        numTokens++;\\n        numTotokens[numTokens] = token;\\n        tokenToNum[token] = numTokens;\\n    }\\n}\\n\",\"keccak256\":\"0x472de1abf725ae76dce051ce0fdc85cd3fd6b178d4c406b4f67361c295121780\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x60808060405234610016576104f0908161001c8239f35b600080fdfe608060408181526004918236101561001657600080fd5b600092833560e01c91826319ab453c1461037b5750816323e27a641461033457816341976e09146102a157816375829def146102435781638e499bcf14610224578163ba0bba40146101ff578163c690908a146101b5578163d441987d146100b0575063f851a4401461008857600080fd5b346100ac57816003193601126100ac576001600160a01b0360209254169051908152f35b5080fd5b919050346101b157806003193601126101b15767ffffffffffffffff9082358281116101ad576100e39036908501610431565b9390926024359081116101a9576100fd9036908301610431565b906001600160a01b0392610115848954163314610467565b8287036101665750865b86811061012a578780f35b6101358184846104bd565b35906101428189896104bd565b3591858316809303610162576001928a526005602052868a20550161011f565b8980fd5b606490602086519162461bcd60e51b8352820152600d60248201527f496e76616c696420696e707574000000000000000000000000000000000000006044820152fd5b8580fd5b8480fd5b8280fd5b9050346101b15760203660031901126101b15780356001600160a01b038082168092036101ad576101ea908554163314610467565b83526020528120805460ff1916600117905580f35b5050346100ac57816003193601126100ac5760ff6020925460a01c1690519015158152f35b5050346100ac57816003193601126100ac576020906001549051908152f35b8390346100ac5760203660031901126100ac57356001600160a01b038082168092036101b1577fffffffffffffffffffffffff00000000000000000000000000000000000000009061029a84549182163314610467565b1617815580f35b839150346100ac5760203660031901126100ac578035906001600160a01b0382168092036101b1578183528060205260ff8484205416156102f15760208480858581526005845220549051908152f35b606490602085519162461bcd60e51b8352820152601160248201527f4e6f7420737570706f727420746f6b656e0000000000000000000000000000006044820152fd5b9050346101b15760203660031901126101b15780356001600160a01b038082168092036101ad57610369908554163314610467565b83526020528120805460ff1916905580f35b8490346100ac5760203660031901126100ac578235906001600160a01b0382168092036101b15782549060ff8260a01c166103f057507fffffffffffffffffffffff00000000000000000000000000000000000000000016177401000000000000000000000000000000000000000017815580f35b62461bcd60e51b8152602085820152600d60248201527f416c7265616479207365747570000000000000000000000000000000000000006044820152606490fd5b9181601f840112156104625782359167ffffffffffffffff8311610462576020808501948460051b01011161046257565b600080fd5b1561046e57565b60405162461bcd60e51b815260206004820152602160248201527f4f6e6c792061646d696e2063616e2063616c6c20746869732066756e6374696f6044820152603760f91b6064820152608490fd5b91908110156104cd5760051b0190565b634e487b7160e01b600052603260045260246000fdfea164736f6c6343000818000a",
+  "deployedBytecode": "0x608060408181526004918236101561001657600080fd5b600092833560e01c91826319ab453c1461037b5750816323e27a641461033457816341976e09146102a157816375829def146102435781638e499bcf14610224578163ba0bba40146101ff578163c690908a146101b5578163d441987d146100b0575063f851a4401461008857600080fd5b346100ac57816003193601126100ac576001600160a01b0360209254169051908152f35b5080fd5b919050346101b157806003193601126101b15767ffffffffffffffff9082358281116101ad576100e39036908501610431565b9390926024359081116101a9576100fd9036908301610431565b906001600160a01b0392610115848954163314610467565b8287036101665750865b86811061012a578780f35b6101358184846104bd565b35906101428189896104bd565b3591858316809303610162576001928a526005602052868a20550161011f565b8980fd5b606490602086519162461bcd60e51b8352820152600d60248201527f496e76616c696420696e707574000000000000000000000000000000000000006044820152fd5b8580fd5b8480fd5b8280fd5b9050346101b15760203660031901126101b15780356001600160a01b038082168092036101ad576101ea908554163314610467565b83526020528120805460ff1916600117905580f35b5050346100ac57816003193601126100ac5760ff6020925460a01c1690519015158152f35b5050346100ac57816003193601126100ac576020906001549051908152f35b8390346100ac5760203660031901126100ac57356001600160a01b038082168092036101b1577fffffffffffffffffffffffff00000000000000000000000000000000000000009061029a84549182163314610467565b1617815580f35b839150346100ac5760203660031901126100ac578035906001600160a01b0382168092036101b1578183528060205260ff8484205416156102f15760208480858581526005845220549051908152f35b606490602085519162461bcd60e51b8352820152601160248201527f4e6f7420737570706f727420746f6b656e0000000000000000000000000000006044820152fd5b9050346101b15760203660031901126101b15780356001600160a01b038082168092036101ad57610369908554163314610467565b83526020528120805460ff1916905580f35b8490346100ac5760203660031901126100ac578235906001600160a01b0382168092036101b15782549060ff8260a01c166103f057507fffffffffffffffffffffff00000000000000000000000000000000000000000016177401000000000000000000000000000000000000000017815580f35b62461bcd60e51b8152602085820152600d60248201527f416c7265616479207365747570000000000000000000000000000000000000006044820152606490fd5b9181601f840112156104625782359167ffffffffffffffff8311610462576020808501948460051b01011161046257565b600080fd5b1561046e57565b60405162461bcd60e51b815260206004820152602160248201527f4f6e6c792061646d696e2063616e2063616c6c20746869732066756e6374696f6044820152603760f91b6064820152608490fd5b91908110156104cd5760051b0190565b634e487b7160e01b600052603260045260246000fdfea164736f6c6343000818000a",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/PriceOracle.sol:PriceOracle",
+        "label": "admin",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 5,
+        "contract": "contracts/PriceOracle.sol:PriceOracle",
+        "label": "setup",
+        "offset": 20,
+        "slot": "0",
+        "type": "t_bool"
+      },
+      {
+        "astId": 57,
+        "contract": "contracts/PriceOracle.sol:PriceOracle",
+        "label": "numTokens",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 61,
+        "contract": "contracts/PriceOracle.sol:PriceOracle",
+        "label": "numTotokens",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_mapping(t_uint256,t_address)"
+      },
+      {
+        "astId": 65,
+        "contract": "contracts/PriceOracle.sol:PriceOracle",
+        "label": "tokenToNum",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_mapping(t_address,t_uint256)"
+      },
+      {
+        "astId": 69,
+        "contract": "contracts/PriceOracle.sol:PriceOracle",
+        "label": "enabledTokens",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_mapping(t_address,t_bool)"
+      },
+      {
+        "astId": 73,
+        "contract": "contracts/PriceOracle.sol:PriceOracle",
+        "label": "priceUSD",
+        "offset": 0,
+        "slot": "5",
+        "type": "t_mapping(t_address,t_uint256)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_mapping(t_address,t_bool)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => bool)",
+        "numberOfBytes": "32",
+        "value": "t_bool"
+      },
+      "t_mapping(t_address,t_uint256)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => uint256)",
+        "numberOfBytes": "32",
+        "value": "t_uint256"
+      },
+      "t_mapping(t_uint256,t_address)": {
+        "encoding": "mapping",
+        "key": "t_uint256",
+        "label": "mapping(uint256 => address)",
+        "numberOfBytes": "32",
+        "value": "t_address"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

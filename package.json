@@ -1,0 +1,25 @@
+{
+    "name": "hardhat-project",
+    "dependencies": {
+        "@nomicfoundation/hardhat-ethers": "^3.0.6",
+        "@oasisprotocol/sapphire-hardhat": "^2.19.4",
+        "@openzeppelin/contracts": "^5.0.2",
+        "@typechain/ethers-v6": "^0.5.1",
+        "@typechain/hardhat": "^9.1.0",
+        "axios": "^1.7.2",
+        "chai": "^4.3.4",
+        "dotenv": "^16.4.5",
+        "ethers": "^6.13.1",
+        "hardhat": "^2.22.6",
+        "hardhat-deploy": "^0.12.4",
+        "hardhat-gas-reporter": "^2.2.0",
+        "typechain": "^8.3.2"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-chai-matchers": "^2.0.7",
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+        "@types/chai": "^4.3.16",
+        "@types/mocha": "^10.0.7",
+        "ts-node": "^10.9.2"
+    }
+}
