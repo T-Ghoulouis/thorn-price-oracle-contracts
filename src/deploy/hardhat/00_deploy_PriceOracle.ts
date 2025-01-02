@@ -8,7 +8,7 @@ const deploy: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     const { deployments, getNamedAccounts } = hre;
     const { deploy, getOrNull, read, execute } = deployments;
     const { deployer } = await getNamedAccounts();
-    if (includes([CHAIN_ID.OASIS_TESTNET], await getChainId())) {
+    if (includes([CHAIN_ID.LOCAL], await getChainId())) {
         if ((await getOrNull("PriceOracle")) == null) {
             await deploy("PriceOracle", {
                 from: deployer,
@@ -24,16 +24,6 @@ const deploy: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
             await execute("PriceOracle", { from: deployer, log: true }, "initialize");
             const ORACLE_ROLE = await read("PriceOracle", "ORACLE_ROLE");
             await execute("PriceOracle", { from: deployer, log: true }, "grantRole", ORACLE_ROLE, deployer);
-        } else {
-            await deploy("PriceOracle", {
-                from: deployer,
-                args: [],
-                log: true,
-                autoMine: true,
-                proxy: {
-                    owner: deployer,
-                },
-            });
         }
     }
 };

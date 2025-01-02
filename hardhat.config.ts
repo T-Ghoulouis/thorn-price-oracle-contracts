@@ -36,7 +36,7 @@ const config: HardhatUserConfig = {
         sessionKey: 4,
     },
     gasReporter: {
-        enabled: true,
+        enabled: false,
         coinmarketcap: process.env.COINMARKETCAP_API_KEY,
     },
     solidity: {
@@ -93,14 +93,14 @@ const config: HardhatUserConfig = {
             accounts: TEST_HDWALLET,
             tags: ["localhost"],
         },
-        "sapphire-mainnet": {
+        sapphire_mainnet: {
             url: "https://sapphire.oasis.io",
             chainId: 0x5afe,
             accounts,
             live: true,
             tags: ["sapphire-mainnet"],
         },
-        "sapphire-testnet": {
+        sapphire_testnet: {
             url: "https://testnet.sapphire.oasis.dev",
             chainId: 0x5aff,
             accounts,

@@ -8,7 +8,7 @@ const deploy: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     const { deployments, getNamedAccounts } = hre;
     const { deploy, getOrNull, read, execute } = deployments;
     const { deployer } = await getNamedAccounts();
-    if (includes([CHAIN_ID.OASIS_TESTNET], await getChainId())) {
+    if (includes([CHAIN_ID.OASIS_MAINNET], await getChainId())) {
         if ((await getOrNull("PriceOracle")) == null) {
             await deploy("PriceOracle", {
                 from: deployer,
